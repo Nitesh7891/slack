@@ -1,7 +1,7 @@
 import Member from "../models/Member.js";
 import Task from "../models/Task.js";
-import Standup from "../models/standup.js";
-import StandupMessage from "../models/standupMessage.js";
+import Standup from "../models/Standup.js";
+import StandupMessage from "../models/StandupMessage.js";
 import { parseStandupMessage } from "../services/parserService.js";
 
 // POST /api/standups
