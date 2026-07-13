@@ -73,7 +73,7 @@ export const slackOAuthCallback = async (req, res) => {
     );
 
     console.log(`✅ Slack connected for workspace: ${team.name}`);
-     return res.redirect(`${process.env.FRONTEND_URL}`);
+     return res.redirect(`${process.env.FRONTEND_URL}/dashboard`);
     res.status(200).json({
       message: `Slack connected successfully for workspace: ${team.name}`,
       workspace: team.name,
