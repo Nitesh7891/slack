@@ -2,8 +2,8 @@ import { WebClient } from '@slack/web-api';
 import SlackIntegration from '../models/slackIntegration.model.js';
 import Team from '../models/Team.js';
 import Member from '../models/Member.js';
-import Standup from '../models/standup.js';
-import StandupMessage from '../models/standupMessage.js';
+import Standup from '../models/Standup.js';
+import StandupMessage from '../models/StandupMessage.js';
 import Task from '../models/Task.js';
 import Activity from '../models/Activity.js';
 
